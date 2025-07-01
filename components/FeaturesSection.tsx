@@ -7,9 +7,9 @@ const FeaturesSection: React.FC = () => {
     <section className="py-20 bg-gradient-to-b from-white to-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Why Choose MagicKubes?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Why Choose NeuroNex?</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our AI solutions are designed with your business needs in mind, offering unparalleled advantages in today's competitive landscape.
+            Our AI solutions are designed with your business needs in mind, offering unparalleled advantages in today&apos;s competitive landscape.
           </p>
         </div>
 

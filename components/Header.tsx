@@ -58,7 +58,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className={logoClasses}>
           <Brain className="h-8 w-8" />
-          <span>MagicKubes</span>
+          <span>NeuroNex</span>
         </a>
 
         {/* Desktop Navigation */}

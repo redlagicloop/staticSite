@@ -43,7 +43,7 @@ const ContactSection: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Get in Touch</h2>
           <p className="text-body mb-8 max-w-2xl mx-auto">
-            Have a question or want to discuss how MagicKubes can help your business? We&apos;d love to hear from you!
+            Have a question or want to discuss how NeuroNex can help your business? We&apos;d love to hear from you!
           </p>
         </div>
 

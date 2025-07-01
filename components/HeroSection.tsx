@@ -19,13 +19,13 @@ const HeroSection: React.FC = () => {
           <div className="text-white">
             <div className="flex items-center gap-2 mb-4">
               <Brain className="h-8 w-8 text-gray-300" />
-              <h1 className="text-3xl font-bold text-white">MagicKubes</h1>
+              <h1 className="text-3xl font-bold text-white">NeuroNex</h1>
             </div>
             <span className="block text-4xl md:text-6xl font-bold mb-4 heading-2xl">
               Transform Your Business with <span className="text-blue-600">AI</span> That Works For You
             </span>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              MagicKubes delivers innovative AI solutions that automate, optimize, and scale your business—so you don&apos;t have to.
+              NeuroNex delivers innovative AI solutions that automate, optimize, and scale your business—so you don&apos;t have to.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 

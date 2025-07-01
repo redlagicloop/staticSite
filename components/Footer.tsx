@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Brain className="h-8 w-8 text-gray-300" />
-              <span className="text-xl font-bold">MagicKubes</span>
+              <span className="text-xl font-bold">NeuroNex</span>
             </div>
             <p className="text-gray-400 mb-6">
               Empowering the future with intelligent AI-driven solutions for businesses of all sizes.
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500">
-          <p>© {new Date().getFullYear()} MagicKubes. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NeuroNex. All rights reserved.</p>
         </div>
       </div>
     </footer>

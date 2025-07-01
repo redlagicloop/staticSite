@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MagicKubes - Innovative AI Solutions',
-  description: 'Transform your business with cutting-edge AI solutions from MagicKubes',
+  title: 'NeuroNex - Innovative AI Solutions',
+  description: 'Transform your business with cutting-edge AI solutions from NeuroNex',
 }
 
 export default function RootLayout({
