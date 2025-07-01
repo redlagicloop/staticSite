@@ -10,7 +10,7 @@ const ServicesSection: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">Our AI Services</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Discover how our innovative AI solutions can transform your business operations,
-            enhance decision-making, and drive growth in today's digital landscape.
+            enhance decision-making, and drive growth in today&apos;s digital landscape.
           </p>
         </div>
 

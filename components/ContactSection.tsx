@@ -114,7 +114,7 @@ const ContactSection: React.FC = () => {
             {submitted ? (
               <div className="bg-gray-100 text-gray-800 p-4 rounded-lg mb-6 border border-gray-300">
                 <p className="font-medium">Thank you for your message!</p>
-                <p>We'll get back to you as soon as possible.</p>
+                <p>We&apos;ll get back to you as soon as possible.</p>
               </div>
             ) : null}
             
