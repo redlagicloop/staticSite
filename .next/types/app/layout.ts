@@ -1,4 +1,4 @@
-// File: C:\Users\rampr\OneDrive\Desktop\MagicKubes\StaticSiteForMagicKubes\app\layout.tsx
+// File: /Users/graybox/Desktop/staticSite/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

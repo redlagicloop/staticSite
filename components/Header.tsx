@@ -43,9 +43,12 @@ const Header: React.FC = () => {
   }`;
 
   const agenticAIItems = [
-    { label: 'Text to SQL', href: '#text-to-sql' },
-    { label: 'Unstructured Chatbot', href: '#chatbot' },
+    { label: 'Evidence Navigator', href: '#evidence-navigator' },
+    { label: 'Text2SQL', href: '#text2sql' },
+    { label: 'Compliance Review', href: '#compliance-review' },
+    { label: 'Semantic Search', href: '#semantic-search' },
     { label: 'Web Scraping', href: '#web-scraping' },
+    { label: 'Content Recommendation', href: '#content-recommendation' },
   ];
 
   const advancedAIItems = [
@@ -72,7 +75,7 @@ const Header: React.FC = () => {
               className={`flex items-center gap-1 ${navLinkClasses}`}
               onClick={toggleDropdown}
             >
-              <span>Agentic AI</span>
+              <span>Our Solutions</span>
               {dropdownOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
             </button>
             <DropdownMenu items={agenticAIItems} isOpen={dropdownOpen} />
@@ -125,7 +128,7 @@ const Header: React.FC = () => {
                 className="flex items-center gap-1 text-white hover:text-gray-200"
                 onClick={toggleDropdown}
               >
-                <span>Agentic AI</span>
+                <span>Our Solutions</span>
                 {dropdownOpen ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
               </button>
               {dropdownOpen && (

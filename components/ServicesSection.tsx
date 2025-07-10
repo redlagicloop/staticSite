@@ -18,7 +18,7 @@ const ServicesSection: React.FC = () => {
           <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Agentic AI Solutions</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard 
-              title="Text to SQL" 
+              title="Text to xxxxxxx SQL" 
               description="Convert natural language queries into SQL commands automatically, making database interactions intuitive for non-technical users."
               icon={<Database className="h-8 w-8 text-gray-700" />}
               href="#text-to-sql"
