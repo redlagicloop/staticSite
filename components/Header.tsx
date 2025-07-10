@@ -83,14 +83,14 @@ const Header: React.FC = () => {
           
           <div className="relative group">
             <button className={`flex items-center gap-1 ${navLinkClasses}`}>
-              <span>Advanced AI</span>
-              <ChevronDown className="h-4 w-4" />
+              <span>Why NeuroNex</span>
+              {/* <ChevronDown className="h-4 w-4" /> */}
             </button>
             <DropdownMenu items={advancedAIItems} isOpen={false} />
           </div>
           
           <NavLink href="#blog" className={navLinkClasses}>
-            Blog
+            About Us
           </NavLink>
           
           <NavLink href="#contact" className={navLinkClasses}>
@@ -142,8 +142,8 @@ const Header: React.FC = () => {
               )}
             </div>
             
-            <NavLink href="#advanced-ai" className="text-white hover:text-gray-200">
-              Advanced AI
+            <NavLink href="#why-neuronex" className="text-white hover:text-gray-200">
+              Why Neuronex
             </NavLink>
             
             <NavLink href="#blog" className="text-white hover:text-gray-200">
