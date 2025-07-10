@@ -1,9 +1,9 @@
 import Header from '@/components/Header'
 import HeroSection from '@/components/HeroSection'
-import ServicesSection from '@/components/ServicesSection'
-import FeaturesSection from '@/components/FeaturesSection'
-import BlogSection from '@/components/BlogSection'
-import ContactSection from '@/components/ContactSection'
+import StrategicMandateSection from '@/components/StrategicMandateSection'
+import SolutionsOverviewSection from '@/components/SolutionsOverviewSection'
+import MagicKubesAdvantageSection from '@/components/MagicKubesAdvantageSection'
+import CallToActionSection from '@/components/CallToActionSection'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -12,10 +12,10 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <ServicesSection />
-        <FeaturesSection />
-        <BlogSection />
-        <ContactSection />
+        <StrategicMandateSection />
+        <SolutionsOverviewSection />
+        <MagicKubesAdvantageSection />
+        <CallToActionSection />
       </main>
       <Footer />
     </>

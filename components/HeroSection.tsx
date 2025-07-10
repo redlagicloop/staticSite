@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Brain } from 'lucide-react';
+import { ArrowRight, Box } from 'lucide-react';
 import Button from './ui/Button';
 
 const HeroSection: React.FC = () => {
@@ -18,54 +18,54 @@ const HeroSection: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-white">
             <div className="flex items-center gap-2 mb-4">
-              <Brain className="h-8 w-8 text-gray-300" />
+              <Box className="h-8 w-8 text-gray-300" />
               <h1 className="text-3xl font-bold text-white">NeuroNex</h1>
             </div>
             <span className="block text-4xl md:text-6xl font-bold mb-4 heading-2xl">
-              Transform Your Business with <span className="text-blue-600">AI</span> That Works For You
+              NeuroNex: Pioneering <span className="text-blue-600">Agentic AI</span> for Enterprise Excellence
             </span>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              NeuroNex delivers innovative AI solutions that automate, optimize, and scale your business—so you don&apos;t have to.
+            <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+              Empowering visionary enterprises with strategic AI solutions that drive tangible impact and enduring competitive advantage.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 
-                href="#services" 
+                href="#solutions" 
                 variant="primary"
                 className="flex items-center gap-2"
               >
-                Explore Services <ArrowRight className="h-4 w-4" />
+                Discover Our Solutions <ArrowRight className="h-4 w-4" />
               </Button>
               <Button 
                 href="#contact" 
                 variant="outline"
               >
-                Contact Us
+                Schedule a Strategy Session
               </Button>
             </div>
           </div>
           <div className="hidden md:block relative">
             <div className="relative z-10 bg-white/5 backdrop-blur-lg p-8 rounded-2xl border border-white/10 shadow-xl">
               <div className="absolute -top-4 -left-4 bg-gray-700 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">
-                <Brain className="h-6 w-6 text-white" />
+                <Box className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-4">Next-Gen AI Solutions</h3>
-              <p className="text-gray-200 mb-6">Our AI-powered platform enables businesses to harness the power of artificial intelligence without complex integration.</p>
+              <h3 className="text-xl font-semibold text-white mb-4">Strategic AI Solutions</h3>
+              <p className="text-gray-200 mb-6">Our Agentic AI platform enables enterprises to navigate complexity with intelligent autonomy and strategic foresight.</p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-                  <p className="text-gray-200">Agentic AI Solutions</p>
+                  <p className="text-gray-200">Evidence Navigator</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-                  <p className="text-gray-200">Semantic Search Technology</p>
+                  <p className="text-gray-200">Text2SQL</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-                  <p className="text-gray-200">Content Engineering</p>
+                  <p className="text-gray-200">Compliance Review</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gray-300"></div>
-                  <p className="text-gray-200">Advanced Data Analysis</p>
+                  <p className="text-gray-200">Semantic Search</p>
                 </div>
               </div>
             </div>
