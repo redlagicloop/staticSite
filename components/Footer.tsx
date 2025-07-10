@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain } from 'lucide-react';
+import { Box } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,11 +8,11 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Brain className="h-8 w-8 text-gray-300" />
+              <Box className="h-8 w-8 text-gray-300" />
               <span className="text-xl font-bold">NeuroNex</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Empowering the future with intelligent AI-driven solutions for businesses of all sizes.
+              Pioneering Agentic AI for Enterprise Excellence.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -34,23 +34,21 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
+            <h3 className="text-lg font-semibold mb-6">Solutions</h3>
             <ul className="space-y-3">
-              <li><a href="#text-to-sql" className="text-gray-400 hover:text-white transition-colors">Text to SQL</a></li>
-              <li><a href="#chatbot" className="text-gray-400 hover:text-white transition-colors">Unstructured Chatbot</a></li>
+              <li><a href="#evidence-navigator" className="text-gray-400 hover:text-white transition-colors">Evidence Navigator</a></li>
+              <li><a href="#text2sql" className="text-gray-400 hover:text-white transition-colors">Text2SQL</a></li>
+              <li><a href="#compliance-review" className="text-gray-400 hover:text-white transition-colors">Compliance Review</a></li>
+              <li><a href="#semantic-search" className="text-gray-400 hover:text-white transition-colors">Semantic Search</a></li>
               <li><a href="#web-scraping" className="text-gray-400 hover:text-white transition-colors">Web Scraping</a></li>
-              <li><a href="#content-engineering" className="text-gray-400 hover:text-white transition-colors">Content Engineering</a></li>
-              <li><a href="#semantic-search" className="text-gray-400 hover:text-white transition-colors">Semantic Search Engine</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-6">Company</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#blog" className="text-gray-400 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Press</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#why-neuronex" className="text-gray-400 hover:text-white transition-colors">Why NeuroNex?</a></li>
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown, ChevronUp, Brain } from 'lucide-react';
+import { Menu, X, ChevronDown, ChevronUp, Box } from 'lucide-react';
 import NavLink from './ui/NavLink';
 import DropdownMenu from './ui/DropdownMenu';
 
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
     <header className={headerClasses}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className={logoClasses}>
-          <Brain className="h-8 w-8" />
+          <Box className="h-8 w-8" />
           <span>NeuroNex</span>
         </a>
 
@@ -81,15 +81,11 @@ const Header: React.FC = () => {
             <DropdownMenu items={agenticAIItems} isOpen={dropdownOpen} />
           </div>
           
-          <div className="relative group">
-            <button className={`flex items-center gap-1 ${navLinkClasses}`}>
-              <span>Why NeuroNex</span>
-              {/* <ChevronDown className="h-4 w-4" /> */}
-            </button>
-            <DropdownMenu items={advancedAIItems} isOpen={false} />
-          </div>
+          <NavLink href="#why-neuronex" className={navLinkClasses}>
+            Why NeuroNex?
+          </NavLink>
           
-          <NavLink href="#blog" className={navLinkClasses}>
+          <NavLink href="#about" className={navLinkClasses}>
             About Us
           </NavLink>
           
@@ -97,6 +93,8 @@ const Header: React.FC = () => {
             Contact Us
           </NavLink>
         </nav>
+
+
 
         {/* Mobile Menu Button */}
         <button
@@ -143,11 +141,11 @@ const Header: React.FC = () => {
             </div>
             
             <NavLink href="#why-neuronex" className="text-white hover:text-gray-200">
-              Why Neuronex
+              Why NeuroNex?
             </NavLink>
             
-            <NavLink href="#blog" className="text-white hover:text-gray-200">
-              Blog
+            <NavLink href="#about" className="text-white hover:text-gray-200">
+              About Us
             </NavLink>
             
             <NavLink href="#contact" className="text-white hover:text-gray-200">
